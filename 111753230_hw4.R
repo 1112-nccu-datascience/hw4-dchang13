@@ -86,7 +86,7 @@ ui <- fluidPage(
 # Define server logic for the Shiny app
 server <- function(input, output) {
   
-  # 顯示數據
+  # show data
   data_all <- reactive({
     iris
   })
